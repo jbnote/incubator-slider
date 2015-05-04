@@ -6,15 +6,12 @@
     "application.def": ".slider/package/STORM/slider-storm-app-package-${pkg.version}.zip",
     "java_home": "/usr/jdk64/jdk1.7.0_67",
     "create.default.zookeeper.node": "true",
+    "site.global.ganglia_enabled": "false",
 
     "site.global.app_user": "${USER_NAME}",
     "site.global.app_version": "${storm.version}",
     "site.global.app_root": "${AGENT_WORK_ROOT}/app/install/apache-storm-${pkg.version}",
     "site.global.user_group": "hadoop",
-
-    "site.global.metric_collector_host": "${NN_HOST}",
-    "site.global.metric_collector_port": "6188",
-    "site.global.metric_collector_lib": "",
 
     "site.storm-site.metrics.reporter.register" : "org.apache.hadoop.metrics2.sink.storm.StormTimelineMetricsReporter",
     "site.storm-site.storm.log.dir" : "${AGENT_LOG_ROOT}",
