@@ -50,7 +50,7 @@
           </os>
         </activation>
         <modules>
-          <module>accumulo</module>
+<!--          <module>accumulo</module> -->
           <module>hbase</module>
           <module>storm</module>
         </modules>
