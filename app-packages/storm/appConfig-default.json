@@ -3,7 +3,7 @@
   "metadata": {
   },
   "global": {
-    "application.def": ".slider/package/STORM/slider-storm-app-package-0.70.1-incubating.zip",
+    "application.def": ".slider/package/STORM/slider-storm-app-package-${storm.version}.zip",
     "java_home": "/usr/lib/jvm/java-1.8.0-openjdk",
     "create.default.zookeeper.node": "true",
 
